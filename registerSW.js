@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/icm-recolha/sw.js', { scope: '/icm-recolha/' })})}
